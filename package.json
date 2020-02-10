@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "test-cy:e2e": "cypress run --browser chrome --spec 'cypress/integration/spotifyTest/*.js'"
+    },
+    "devDependencies": {
+        "cypress": "^3.8.3"
+    }
+}

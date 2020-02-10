@@ -14,3 +14,26 @@ In order to test the player you need to at least have an free trial account with
 Please give us instructions of where to put our own login information and detailed framework environment setup guidance if we want to run your code locally.
 Bonus question: inside the framework, you are welcome to do more than we asked in the above question to demonstrate you automation skills.
 
+## Installation
+
+### System Requirements:
+- Node.js v9.5.0
+- npm version v5.6.0
+- cypress v3.8.3
+- Google Chrome 78
+
+Install Node: https://nodejs.org/en/download/
+
+## Install Node Packages
+- run `npm install` to install cypress locally as a dev dependancy
+
+## Run Tests
+```
+npm run test-cy:e2e
+```
+
+## Add your spotify Login information in:
+```
+Open /cypress/support/command.js 
+
+```
